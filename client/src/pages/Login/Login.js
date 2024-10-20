@@ -32,7 +32,7 @@ class Login extends Component {
     };
 
     axios
-      .post('/auth/login', userDetails)
+      .post('http://localhost:3000/auth/login', userDetails)
       .then(result => {
         localStorage.setItem('jwtToken', result.data.token);
         localStorage.setItem('userId', result.data.userId);

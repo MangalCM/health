@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # healthTracker
 
 We designed this simple health application to help you track your personal health, fitness, and nutrition goals. Once you've created your account, you can easily log your weight, water consumption, nutrition goals and fitness activities. You're on your way to a healthier you!
@@ -58,3 +59,6 @@ And go to the [browser](http://localhost:3000) to view the application!
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+=======
+# health
+>>>>>>> origin/main
