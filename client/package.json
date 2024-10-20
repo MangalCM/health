@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^1.4.1",
-    "@material-ui/icons": "^1.1.1",
-    "axios": "^0.18.1",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "axios": "^1.7.7",
     "chart.js": "^2.7.3",
     "chartjs": "^0.3.24",
     "jss": "^9.8.7",
@@ -17,7 +17,7 @@
     "react-fontawesome": "^1.6.1",
     "react-router-dom": "^4.3.1",
     "react-script": "^2.0.5",
-    "react-scripts": "1.1.4",
+    "react-scripts": "^5.0.1",
     "start": "^5.1.0",
     "switch": "0.0.0"
   },
@@ -32,5 +32,17 @@
   "clean_urls": false,
   "routes": {
     "/**": "index.html"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

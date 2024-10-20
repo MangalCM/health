@@ -22,7 +22,7 @@ app.get('/*', (req, res) => {
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost:27017/reacthealthtracker',
+  process.env.MONGODB_URI || 'mongodb+srv://cmmangal523:SxQOHOrlVv5JAHYn@hts.q3tn9.mongodb.net/?retryWrites=true&w=majority&appName=HTS',
   { useNewUrlParser: true }
 );
 
